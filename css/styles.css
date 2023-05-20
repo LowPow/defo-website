@@ -55,7 +55,7 @@ body {
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
-  color: #212529;
+  color: #0f49845b;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -10866,33 +10866,6 @@ section {
 .app-badge {
   height: 3rem;
 }
-
-#mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #fff;
-}
-#mainNav .navbar-brand {
-  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:active {
-  color: #2937f0;
-}
-#mainNav .navbar-toggler {
-  font-size: 0.875rem;
-  padding: 0.75rem 1rem;
-  color: #212529;
-}
-#mainNav .navbar-nav .nav-item .nav-link {
-  color: #212529;
-}
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #6c757d;
-}
-#mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2937f0;
-}
-
 /*!
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
  * Copyright 2013 - 2017 pixelsign
@@ -11084,14 +11057,22 @@ footer a:hover, footer a:active, footer a:focus {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
 }
-
+  
 .masthead {
-  background-color: #f8f9fa;
-  padding-top: 9.5rem;
-  padding-bottom: 5rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../assets/img/startbackground.webp");
+  padding-top: 15rem;
+  padding-bottom: 18rem;
+}
+#navbar-brand {
+  font-size: 0.875rem;
+  padding: 3rem 15rem;
+  padding-bottom: 10rem;
+  color: #212529;
 }
 .masthead .masthead-device-mockup {
-  display: flex;
+  display: flexbox;
   align-items: center;
   justify-content: center;
   position: relative;
